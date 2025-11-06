@@ -1,0 +1,143 @@
+
+---
+title: "RMarkdown Basics — Mini Tutorial"
+author: "PhD Course — R Programming"
+date: "`r format(Sys.Date())`"
+output:
+  pdf_document:
+    latex_engine: xelatex
+    toc: true
+    toc_depth: 2
+    number_sections: true
+  html_document:
+    toc: true
+    toc_depth: 2
+    number_sections: true
+---
+
+
+# Introduction
+
+Before you start the take-home assignments, it’s important to understand what an **RMarkdown** file (`.Rmd`) is and how it works.  
+RMarkdown is a format that lets you write **text and R code together in one file** — perfect for reproducible reports, analyses, and assignments.
+
+In this short tutorial, you’ll learn how to use RMarkdown to create clean, shareable documents that combine your explanations, code, and results.
+
+---
+
+# What is RMarkdown?
+
+RMarkdown is a special type of document that combines:
+
+- **Text**: for explanations, comments, or reflections  
+- **Code chunks**: where you actually run R commands  
+- **Output**: results, plots, and tables produced by the code
+
+When you “**knit**” an RMarkdown file, RStudio runs all the code chunks and combines the results with your text to produce a polished report (usually as a **PDF** or **HTML**).
+
+---
+
+# The basic structure of an `.Rmd`
+
+Here’s what a minimal RMarkdown document looks like:
+
+```markdown
+---
+title: "My First RMarkdown"
+author: "Student Name"
+date: "`r format(Sys.Date())`"
+output: html_document
+---
+
+# Introduction
+
+This is normal text. You can use **Markdown** formatting for bold, italics, or lists.
+
+```{r}
+# This is R code inside a code chunk
+summary(cars)
+```
+```
+
+When you knit this file, R runs the `summary(cars)` command and includes the results in your output file.
+
+---
+
+# Code chunks vs. inline code
+
+There are two ways to include code:
+
+1. **Code chunks** — for larger blocks of code:
+
+   ```{r}
+   plot(pressure)
+   ```
+
+2. **Inline code** — for short snippets inside text:
+
+   ```
+   Today’s date is `r Sys.Date()`.
+   ```
+
+   When knitted, this will show the actual date.
+
+---
+
+# How to knit in RStudio
+
+1. Open your `.Rmd` file in **RStudio**.  
+2. At the top, click the **Knit** button.  
+3. Choose **Knit to HTML** (works on all computers).  
+   - If you have LaTeX installed, you can also **Knit to PDF**.  
+4. RStudio will run your R code and create a document that shows text, code, and results together.
+
+> 💡 Tip: If knitting fails, try running chunks one by one first using **Ctrl+Shift+Enter** (Windows) or **Cmd+Shift+Enter** (Mac).
+
+---
+
+# Why use RMarkdown?
+
+Using `.Rmd` files has several advantages over plain R scripts:
+
+- You keep your **code, output, and explanations together**.  
+- You can **recreate your work anytime** — perfect for reproducible science.  
+- You can share results easily as a **PDF or HTML report**.  
+- It helps you build good habits for documenting your analysis.
+
+---
+
+# Troubleshooting common issues
+
+| Problem                         | Possible cause                                  | Fix                                               |
+| ------------------------------- | ----------------------------------------------- | ------------------------------------------------- |
+| “Could not find function”       | Forgot to load a package                        | Add `library(package)` at the top                 |
+| “LaTeX not found”               | No LaTeX installed                              | Knit to HTML instead of PDF                       |
+| Code chunk errors stop knitting | One chunk failed                                | Fix the chunk or set `error = TRUE` in its header |
+| Plots missing                   | Chunk has `echo=TRUE` but not `fig.show='hold'` | Use default settings                              |
+
+---
+
+# Practice task
+
+Let’s make sure everything works!
+
+**Task:** Create a new RMarkdown file in RStudio (`File → New File → R Markdown...`)  
+- Give it a title, your name, and choose HTML output.  
+- Replace the example code with:
+
+```{r}
+x <- rnorm(100)
+mean(x)
+hist(x)
+```
+
+Then click **Knit**. You should see a short report with your mean value and a histogram.
+
+---
+
+# Final remark
+
+All assignments in this course are provided as `.Rmd` files.  
+You can fill in the code where the hints are, run chunks, and knit your final work to PDF or HTML.  
+
+This short introduction should give you enough to get started — and if you forget something, just come back to this file!
