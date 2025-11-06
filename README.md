@@ -1,4 +1,4 @@
-# R Take-Home Assignments (PhD Course)
+# R Take-Home Assignments
 
 This repository contains the complete set of R take-home assignments and answers for the PhD course *R Programming for Data Analysis*.
 
