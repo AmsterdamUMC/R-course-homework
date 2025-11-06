@@ -14,20 +14,21 @@ Each folder contains:
 
 ---
 
-## 🧰 Getting started: RMarkdown tutorial
+## Getting started: RMarkdown tutorial
 
 If you’ve never worked with **RMarkdown (.Rmd)** files before, start with the short tutorial included in the repository:
 
-➡️ Exercises/00_RMarkdown_basics.Rmd  
-and its knitted version  
-➡️ Exercises/00_RMarkdown_basics.pdf
+- Exercises/RMarkdown_basics.Rmd 
 
-This mini tutorial explains what RMarkdown is, how to open it in RStudio, how to “knit” the file into a report (HTML or PDF), and why this format is used for the assignments.  
-It takes about 10 minutes to complete and will help you understand the format before beginning Assignment 1.
+or its pdf version:
+
+- Exercises/RMarkdown_basics.pdf
+
+This mini tutorial explains what RMarkdown is, how to open it in RStudio, how to “knit” the file into a report (HTML or PDF), and why this format is used for the assignments. It takes about 10 minutes to complete and will help you understand the format before beginning Assignment 1.
 
 ---
 
-##How to use
+## How to use
 
 You can work with these assignments in two ways:
 
@@ -38,11 +39,11 @@ You can work with these assignments in two ways:
 2. **Without Git** — download the latest ZIP bundles from the  
    [Releases page](../../releases/) and unzip them locally.
 
-Then open any `.Rmd` file in **RStudio**, fill in the missing code where the comments indicate tasks, and click **Knit** to create your own PDF or HTML output.
+Then open any `.Rmd` file in **RStudio**, fill in the missing code where the comments indicate tasks, and click **Knit** to create your own PDF (the tutorial tells you how).
 
 ---
 
-## 🧩 What you will learn
+## What you will learn
 
 Across six assignments, you will:
 
