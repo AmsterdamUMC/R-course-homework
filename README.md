@@ -1,6 +1,23 @@
 # R Take-Home Assignments
 
-This repository contains the complete set of R take-home assignments and answers for the PhD course *R Programming for Data Analysis*.
+These **take-home assignments** are designed both as **practice material** and a **long-term support resource**. Many researchers experience that the skills learned in an R course fade quickly without repeated use. Each exercise is therefore written both as a **learning task now** and as a **self-guided refresher later**.  
+
+The assignments include story-driven introductions, guided hints, and structured solutions so you can return to them whenever you need to analyse your own data.
+
+You will also receive separate **answer documents**. We strongly recommend you first complete the assignments yourself and only consult the answers afterwards or if you are really stuck.   Treat the answer key as a **check and learning aid**, not a shortcut.
+
+---
+
+## Learning vision
+
+The goal of this material is to help you build lasting confidence in R. By working through the assignments step by step, you will:
+
+- Strengthen your understanding of *core R syntax and data structures*.  
+- Learn to *read, clean, visualise, and interpret real-world data*.  
+- Develop reproducible habits using *RMarkdown* for transparent analysis.  
+- Gain a first introduction to *statistical reasoning in R* through guided examples.
+
+---
 
 All materials are organised in two top-level folders:
 

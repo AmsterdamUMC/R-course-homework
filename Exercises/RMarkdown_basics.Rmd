@@ -18,8 +18,7 @@ output:
 
 # Introduction
 
-Before you start the take-home assignments, it’s important to understand what an **RMarkdown** file (`.Rmd`) is and how it works.  
-RMarkdown is a format that lets you write **text and R code together in one file** — perfect for reproducible reports, analyses, and assignments.
+Before you start the take-home assignments, it’s important to understand what an **RMarkdown** file (`.Rmd`) is and how it works.  RMarkdown is a format that lets you write **text and R code together in one file**. Perfect for reproducible reports, analyses, and assignments.
 
 In this short tutorial, you’ll learn how to use RMarkdown to create clean, shareable documents that combine your explanations, code, and results.
 
@@ -91,7 +90,7 @@ There are two ways to include code:
    - If you have LaTeX installed, you can also **Knit to PDF**.  
 4. RStudio will run your R code and create a document that shows text, code, and results together.
 
-> 💡 Tip: If knitting fails, try running chunks one by one first using **Ctrl+Shift+Enter** (Windows) or **Cmd+Shift+Enter** (Mac).
+> Tip: If knitting fails, try running chunks one by one first using **Ctrl+Shift+Enter** (Windows) or **Cmd+Shift+Enter** (Mac).
 
 ---
 
