@@ -27,7 +27,7 @@ It takes about 10 minutes to complete and will help you understand the format be
 
 ---
 
-## 🚀 How to use
+##How to use
 
 You can work with these assignments in two ways:
 
@@ -36,7 +36,7 @@ You can work with these assignments in two ways:
       git clone https://github.com/AmsterdamUMC/R-course-homework.git
 
 2. **Without Git** — download the latest ZIP bundles from the  
-   [Releases page](/releases/) and unzip them locally.
+   [Releases page](../../releases/) and unzip them locally.
 
 Then open any `.Rmd` file in **RStudio**, fill in the missing code where the comments indicate tasks, and click **Knit** to create your own PDF or HTML output.
 
@@ -56,7 +56,7 @@ Assignment 5 is intentionally a bit more in-depth to provide a gentle introducti
 
 ---
 
-## 🧠 Tips for students
+## Tips for students
 
 - Use the `.Rmd` versions for hands-on work.  
 - The PDFs are great as quick references.  
@@ -70,15 +70,12 @@ Assignment 5 is intentionally a bit more in-depth to provide a gentle introducti
 
 ---
 
-## 📜 License
+## License
 
-This project is licensed under the **Apache License 2.0**.  
-You are free to use, modify, and distribute these materials for educational and research purposes, provided that proper attribution is given and the same license is included in derivative works.
-
-See the LICENSE file for details.
+This project is licensed under the **Apache License 2.0**. You are free to use, modify, and distribute these materials for educational and research purposes, provided that proper attribution is given and the same license is included in derivative works. See the [LICENSE](LICENSE) file for details.
 
 ---
 
 ## ✉️ Contact
 
-Questions or feedback: **Bauke van der Velde** — please open an issue or contact directly.
+Questions or feedback? Please [open an issue](../../issues) on this repository.
