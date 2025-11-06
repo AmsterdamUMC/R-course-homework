@@ -1,6 +1,6 @@
 # R Take-Home Assignments (PhD Course)
 
-This repository contains the complete set of **R take-home assignments** and **answers** for the PhD course *R Programming for Data Analysis*.
+This repository contains the complete set of R take-home assignments and answers for the PhD course *R Programming for Data Analysis*.
 
 All materials are organised in two top-level folders:
 
@@ -8,6 +8,7 @@ All materials are organised in two top-level folders:
 - **Answers/** – corresponding instructor/solution versions (same text, filled-in code)
 
 Each folder contains:
+
 - Individual `.Rmd` files (to open and edit in RStudio)
 - Pre-rendered PDFs (`all_exercises.pdf` / `all_answers.pdf`)
 - A front page explaining how to use the materials
@@ -18,7 +19,7 @@ Each folder contains:
 
 If you’ve never worked with **RMarkdown (.Rmd)** files before, start with the short tutorial included in the repository:
 
-- Exercises/RMarkdown_basics.Rmd 
+- Exercises/RMarkdown_basics.Rmd
 
 or its pdf version:
 
@@ -39,7 +40,7 @@ You can work with these assignments in two ways:
 2. **Without Git** — download the latest ZIP bundles from the  
    [Releases page](../../releases/) and unzip them locally.
 
-Then open any `.Rmd` file in **RStudio**, fill in the missing code where the comments indicate tasks, and click **Knit** to create your own PDF (the tutorial tells you how).
+Then open any `.Rmd` file in *RStudio*, fill in the missing code where the comments indicate tasks, and click *Knit* to create your own PDF (the tutorial tells you how).
 
 ---
 
@@ -47,11 +48,11 @@ Then open any `.Rmd` file in **RStudio**, fill in the missing code where the com
 
 Across six assignments, you will:
 
-1. Introduction & patient data – reading, wrangling, plotting  
-2. Penguins – exploratory data analysis and visualisation  
-3. COVID – loops, conditionals, moving averages, flags  
-4. World development – exploring GDP, life expectancy, and CO₂ emissions  
-5. Statistics with penguins – intro to t-tests, ANOVA, effect sizes, diagnostics  
+1. **Introduction & patient data**: reading, wrangling, plotting  
+2. **Penguins**: exploratory data analysis and visualisation  
+3. **COVID**: loops, conditionals, moving averages, flags  
+4. **World development** – exploring GDP, life expectancy, and CO₂ emissions  
+5. **Statistics with penguins**: intro to t-tests, ANOVA, effect sizes, diagnostics  
 
 Assignment 5 is intentionally a bit more in-depth to provide a gentle introduction to statistics in R.
 
@@ -61,7 +62,7 @@ Assignment 5 is intentionally a bit more in-depth to provide a gentle introducti
 
 - Use the `.Rmd` versions for hands-on work.  
 - The PDFs are great as quick references.  
-- The **answers** are for review only — try the exercises first!  
+- The **answers** are for review only > try the exercises first!  
 - If you’re new to RMarkdown, complete the tutorial first.  
 - For help in R, use:
 
