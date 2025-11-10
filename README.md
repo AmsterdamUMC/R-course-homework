@@ -63,7 +63,7 @@ Then open any `.Rmd` file in *RStudio*, fill in the missing code where the comme
 
 ## What you will learn
 
-Across six assignments, you will:
+Across five assignments, you will learn about the following topics:
 
 1. **Introduction & patient data**: reading, wrangling, plotting  
 2. **Penguins**: exploratory data analysis and visualisation  
